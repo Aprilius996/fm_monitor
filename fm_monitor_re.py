@@ -9,7 +9,6 @@ import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import subprocess
-import chardet
 
 un_pattern = re.compile(r"(.*?)通告(\d{4})年第(\d+)号", re.I)
 
